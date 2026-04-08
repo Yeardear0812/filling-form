@@ -84,7 +84,7 @@ textarea {
 
 .label {
     position: relative;
-    border: 1px solid #ccc;
+
     border-radius: 3px;
     padding: 10px 0;
 }
@@ -589,8 +589,25 @@ td {
     height: 16px;
 }
 input[type="radio"]:not(.gender input) {
-    accent-color: #3e6aff;
+    appearance: none;
     width: 15px;
     height: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0;
+}
+input[type="radio"]:not(.gender input):checked {
+    appearance: auto;
+    accent-color: #3e6aff;
+
     cursor: pointer;
+}
+select{
+    border: 1px solid #cccccc;
+}
+select:focus{
+    outline: none;
+    border: 1px solid #3e6aff;
+    box-shadow: 0 0 2.5px rgba(62, 106, 255, 0.55);
 }

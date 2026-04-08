@@ -22,8 +22,8 @@
                     <label class="email" for="">
                         <input type="text" placeholder="Email">
                     </label> <br>
-                    <label class="label">
-                        <select name="city">
+                    <label class="label select">
+                        <select name="city ">
                             <option value="" selected="" disabled="">Ваше місто</option>
                             <option value="">Хмельницький</option>
                             <option value="">Львів</option>
@@ -62,15 +62,15 @@
                 <div class="checkboxes flex-between">
                     <div class="right">
                         <label>
-                            <input type="radio" name="check" id="">
+                            <input type="radio" name="check" id="" class="radio">
                             Нова Пошта
                         </label>git init
                         <label>
-                            <input type="radio" name="check" id="">
+                            <input type="radio" name="check" id="" class="radio">
                             Кур’єр
                         </label>
                         <label class="disabled">
-                            <input type="radio" name="check" id="" disabled="">
+                            <input type="radio" name="check" id="" disabled="" class="radio">
                             Самовивіз
                         </label>
                     </div>
@@ -116,13 +116,13 @@
                 <div class="gender">
                     <p class="puding">
                         <label class="man items-center">
-                            <input type="radio" name="gender" id="man">
+                            <input type="radio" name="gender" id="man" class="radio">
                             <span>Чоловік</span>
                         </label>
                     </p>
                     <p>
                         <label class="woman items-center">
-                            <input type="radio" name="gender" id="woman">
+                            <input type="radio" name="gender" id="woman" class="radio">
                             <span>Жінка</span>
                         </label>
                     </p>
@@ -172,7 +172,7 @@
                             <td>Місто:</td>
                             <td>
                                 <label class="label">
-                                    <select name="city">
+                                    <select name="city select">
                                         <option value="" selected="">Хмельницький</option>
                                         <option value="">Львів</option>
                                         <option value="">Київ</option>
@@ -184,10 +184,10 @@
                             <td>Стать:</td>
                             <td class="column notchecked items-center">
                                 <label>
-                                    <input type="radio" name="gend">Чоловік
+                                    <input type="radio" name="gend" class="radio">Чоловік
                                 </label>
                                 <label>
-                                    <input type="radio" name="gend">Жінка
+                                    <input type="radio" name="gend" class="radio">Жінка
                                 </label>
                             </td>
                         </tr>
@@ -243,7 +243,7 @@
                         <tr class="pad">
                             <td>
                                 <p>Країна</p>
-                                <label class="label line">
+                                <label class="label line select">
                                     <select name="country">
                                         <option value="" selected="">Індонезія</option>
                                         <option value="">Польща</option>
@@ -293,6 +293,6 @@
             </div>
         </section>
     </footer>
-
-
-</body></html>
+    <script src="java/script.js"></script>
+</body>
+</html>
