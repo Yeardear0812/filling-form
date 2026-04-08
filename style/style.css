@@ -323,7 +323,9 @@ button:hover {
     background-size: 15px;
 }
 
-
+.right{
+    padding-right: 60px;
+}
 hr {
     margin: 50px 0 50px 0;
     background-color: #b3b3b3;
