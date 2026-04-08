@@ -36,7 +36,7 @@
                 </div>
                 <div class="fixed-form">
                     <h2>06. фіксована форма</h2>
-                    <div class="popup">
+                    <div class="popup" id="popup">
                         <p>Логін</p>
                         <label for="">
                             <input type="text">
@@ -48,7 +48,7 @@
                             <input type="checkbox" name="agree" id="">Запам’ятати пароль
                         </label>
                         <button type="submit">Увійти</button>
-                        <a class="cancel" href="">X</a>
+                        <a class="cancel" id="closeBtn" href="">X</a>
                     </div>
                 </div>
             </div>
@@ -284,15 +284,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><a href="">Повернутися назад</a></td>
-                            <td></td>
-                            <td><button type="submit">Оформити покупку</button></td>
+                            <td>
+                                <div class="flex">
+                                    <div class="max"><a href="">Повернутися назад</a></div>
+                                    <button type="submit">Оформити покупку</button>
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </section>
     </footer>
-    <script src="java/script.js"></script>
+    <script src="java/skript.js"></script>
 </body>
 </html>
